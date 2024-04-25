@@ -54,6 +54,7 @@ namespace XMLSchemaGenerator
                             schema.Write(writer);
                         }
                     }
+                    Console.WriteLine();
                     Console.WriteLine($"Shema je uspješno spremljena u {schemaPath}.");
                     Console.WriteLine();
                 }
